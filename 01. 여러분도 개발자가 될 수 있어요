@@ -5,6 +5,23 @@ public class Main {
         System.out.println(true);
         System.out.println(false);
         System.out.println(555 + 444);
+        String name = "이민";
+        int hour = 15;
+        double score = 90.5;
+        char garde =  'A';
+
+        System.out.println(name + "님 " + hour + "시에 배송 완료 되었어요");
+        System.out.println(name + "님 평균점수는 " + score + "점 입니다.");
+        System.out.println(name + "님 학점은 " + garde + "입니다.");
+        boolean pass = true;
+        System.out.println(name + pass);
+        double d = 3.14;
+        float f = 3.14f;
+        System.out.println(d);
+        System.out.println(f);
+
+        int i = 1000000000;
+        long l = 10000000000000L;
     }
 }
 
