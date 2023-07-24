@@ -1,12 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello and welcome!!");  #문자열
-        System.out.println(555);  #숫자형
-        System.out.println(true);  #볼린
+        System.out.println("Hello and welcome!!");
+        System.out.println(555);
+        System.out.println(true);
         System.out.println(false);
+        System.out.println(555 + 444);
     }
 }
 
-자동완성
+~자동완성
 psvm = main  >>>> public static void main  
 so >>> System.out.println
+
+~ 가동성을 위하여 한칸 띄여쓰기 println(555 + 444);
