@@ -17,8 +17,41 @@ public class class03 {
         String dateOfBrith = "1992-03-05";
         String residentialAddress = "떙떙호텔";
         String purposeOfVisit = "관광";
+        String _flightNo = "KE657";
+        String _flight_No_2 = "KE657";
+        int accompany = 2;
+        int lengthOfStay = 5;
+        String item1 = "시계" ;
+        // 절대 변하지 않는 상수는 대문자로
+        final String CODE = "KR"; //final 상수
+        final String KR_COUNTRY_CODE = "+82";
+        final double PI = 3.141592;
+        //형 변환
 
+        //int to float, double
+        //int score = 93 + 93.8;  //정수와 실수 불가
+        int score = 93;
+        System.out.println(score);
+        System.out.println((float)score);//93.0
+        System.out.println((double) score);//93.0
+
+        //float, double to int
+        float score_f = 93.3F;
+        double score_d = 98.8;
+        System.out.println((int) score_f);//93
+        System.out.println((int) score_d);//98
+        score = 93 + (int) 98.8;
+        System.out.println(score);
+
+        score_d = (double)93 + 98.8;
+        System.out.println(score_d);//191.8
+        double convertedScoreDouble = score;
+        System.out.println(convertedScoreDouble); //191 > 190.0
+        //int > long > float > double (자동형변환)
+
+        int convertedScoreInt = (int)(score_d);  //191.8 > 191
+        //double > float > long > int (수동형전환)
+        System.out.println(convertedScoreInt);
 
     }
 }
-
