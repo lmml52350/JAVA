@@ -53,5 +53,33 @@ public class class03 {
         //double > float > long > int (수동형전환)
         System.out.println(convertedScoreInt);
 
+        //숫자를 문자로
+        String s1 = String.valueOf(93);   //방법1
+        s1 = Integer.toString(93);  //방법2
+        System.out.println(s1);
+
+        String s2 = String.valueOf(98.8);
+        s1 = Double.toString(98.8);
+        System.out.println(s2);
+
+        //문자를 숫자로
+        int i = Integer.parseInt("93");
+        System.out.println(i);
+        double d = Double.parseDouble("98.8");
+        System.out.println(d);
+
+        //증감연산'
+        //val ++; 먼저 아래문장 실행후 +1
+        //++val ; 먼저 +1후 아래문장 실행
+        int val;
+        val = 10;
+        System.out.println(val);
+        System.out.println(++val); //11
+        System.out.println(val); //11
+
+        val = 10;
+        System.out.println(val);
+        System.out.println(val++); //10
+        System.out.println(val);  //11
     }
 }
