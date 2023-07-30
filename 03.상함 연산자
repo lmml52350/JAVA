@@ -1,0 +1,26 @@
+public class class02 {
+    public static void main(String[] args) {
+        //논리 연산자
+        boolean 김치찌개 = true;
+        boolean 계란말이 = true;
+        boolean 계란 = false;
+        System.out.println(김치찌개||계란말이); //true
+        System.out.println(김치찌개 && 계란); //f
+
+        //논리 부정 연산자
+        System.out.println(!true); //f
+        System.out.println(!(5==5)); //f
+
+        //삼항연산자
+        //결과 = 조건? >> 참인경우 결과값 거짓인경우 결과값
+        int x = 7;
+        int y = 5;
+        int max = (x > y) ? x : y;
+        System.out.println(max);
+
+        boolean b = (x == y) ? true : false;
+        System.out.println(b);
+        String s = (x != y)? "달라요" : "같아요";
+        System.out.println(s);
+    }
+}
